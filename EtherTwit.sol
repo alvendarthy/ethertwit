@@ -1,4 +1,4 @@
-contract EtherTwitter {
+contract EtherTwit {
 
     uint256 accountId;
 
@@ -16,7 +16,7 @@ contract EtherTwitter {
     event NewUser(address addr);
     event NewPost(address addr, uint256 twitId, string post);
 
-    function EtherTwitter(){
+    function EtherTwit(){
         accountId = 0;
     }
     
